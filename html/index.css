@@ -1,0 +1,80 @@
+/* Apply general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Style the logo */
+.logo {
+    color: #F36060;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#searchContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    z-index: 99;
+
+}
+
+#searchInput {
+    padding: 8px;
+    border: 1px solid #BA98CA;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+/* Style the buttons */
+#loginBtn, #signupBtn {
+    background: #BA98CA;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+#loginBtn:hover, #signupBtn:hover {
+    background-color: #543a62;
+}
+
+.read-more {
+    font-family: Arial, sans-serif;
+    background-color: #BA98CA; 
+    font-size: 12px;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 4px;
+    margin-top: 10px; 
+    display: inline-block; 
+    text-decoration: none; 
+}
+
+.read-more:hover {
+    background-color: #543a62; /* Change hover background color */
+}
+
+.h3{
+    font-family: Arial, sans-serif;
+}
+.ad {
+    width: 400px; 
+    float: right; 
+    margin-top: 20px; 
+}
+
+#adImg {
+    max-width: 100%; 
+    height: auto; 
+}

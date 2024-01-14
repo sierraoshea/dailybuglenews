@@ -1,0 +1,33 @@
+// need to make sure that everyone has the right permissions
+// once someone has uploaded something make them an author??
+// could maybe find the username in the stories names and if they have uploaded one they can edit and upload another
+// if they have not uploaded one they can only comment
+
+
+
+
+Issues right now
+
+
+Need to build still
+// main page with multiple stories -- logged in (no ad, search bar)
+// main page with multiple stories -- reader (search bar, ad)
+// story view page -- logged in (comments allowed, no ad present, can upload story, if have uploaded story can edit)
+// story view page -- reader (no comment section allowed, ad present, cannot edit or upload story)
+// edit page
+// ad functionality
+// test plan
+// determine between reader (non logged in, commentor (logged in), author/editor (once you upload a story))
+// make an if statement like if they have made a story edit a div for and edit story button to show up
+
+
+
+
+Things to do next
+// tests
+// add good data
+
+
+sudo chown -R $(whoami) /Users/sierraoshea/Documents/CS\ 4260/mongodb-macos-x86_64-7.0.2/data/db
+sudo chmod -R u+rw /Users/sierraoshea/Documents/CS\ 4260/mongodb-macos-x86_64-7.0.2/data/db
+sudo docker run -v /Users/sierraoshea/Documents/CS\ 4260/mongodb-macos-x86_64-7.0.2/data/db:/data/db -p 27017:27017 --name mymongo -d mongo:latest

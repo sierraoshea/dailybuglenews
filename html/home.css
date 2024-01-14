@@ -1,0 +1,109 @@
+.header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo {
+    font-family: Arial, sans-serif;
+    color: #F36060;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+#searchContainer {
+    display: flex;
+    align-items: center;
+    margin: 0 458px; 
+    z-index: 99;
+
+}
+
+#searchInput {
+    padding: 8px;
+    border: 1px solid #BA98CA;
+    border-radius: 4px;
+    outline: none;
+}
+
+#userDetails {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-right: 5px; 
+}
+
+/* Style the name */
+#firstName {
+    font-family: Arial, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-right: 4px; 
+}
+
+#lastName {
+    font-family: Arial, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+
+#logoutBtn {
+    background: #BA98CA;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-right: 5px;
+    z-index: 99;
+
+}
+
+#logoutBtn:hover {
+    background-color: #543a62;
+}
+
+
+#uploadBtn {
+    background: #BA98CA;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-right: 5px;
+    z-index: 99;
+
+}
+
+#uploadBtn:hover {
+    background-color: #543a62;
+}
+.read-more {
+    font-family: Arial, sans-serif;
+    background-color: #BA98CA; 
+    font-size: 12px;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 4px;
+    margin-top: 10px; 
+    display: inline-block; 
+    text-decoration: none; 
+}
+
+.read-more:hover {
+    background-color: #543a62; /* Change hover background color */
+}
+
+.h3{
+    font-family: Arial, sans-serif;
+}

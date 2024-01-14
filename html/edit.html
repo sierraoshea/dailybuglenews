@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Daily Bugle</title>
+    <link rel="stylesheet" href="edit.css">
+</head>
+
+<body>
+    <div class="header">
+        <div id="pageTitle" class="logo">The Daily Bugle</div>
+    </div>
+    <div id="userDetails">
+        <div id="firstName"></div>
+        <div id="lastName"></div>
+    </div>
+    <div id="pageName">Edit Story</div>
+    <div id="errorMessage"></div>
+    <div class="textbox-container">
+        <div class="textbox-title">Headline</div>
+        <input id="headline" type="text" class="textbox" placeholder="Edit here">
+
+        <div class="textbox-title">Body</div>
+        <textarea id="storyBody" class="textbox" rows="6" placeholder="Edit here"></textarea>
+
+        <div class="textbox-title">Teaser</div>
+        <textarea id="teaser" class="textbox" rows="2" placeholder="Edit here"></textarea>
+
+        <div id="categories-container" class="textbox-container">
+            <div class="textbox-title">Categories</div>
+            <div class="category-input-container">
+                <input type="text" class="textbox" id="categoryInput" placeholder="Add a category">
+            </div>
+            <button id="addCategoryBtn">Add</button>
+            <ul class="category-list" id="categoryList"></ul>
+        </div>
+
+        <div class="textbox-title">Title</div>
+        <input id="title" type="text" class="textbox" placeholder="Edit here">
+    </div>
+
+    <button id="editBtn" class="edit-btn">Publish Changes</button>
+    <button id="deleteBtn" class="delete-btn">Delete </button>
+
+    <script src="edit-control.js"></script>
+</body>
+
+</html>
+

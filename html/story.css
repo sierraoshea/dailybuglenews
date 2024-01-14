@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Apply the desired font-family */
+    margin-bottom: 60px; /* Adjust as needed */
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo {
+    font-family: Arial, sans-serif;
+    color: #F36060;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+.logo:hover{
+    color: #9e1b1b;
+}
+
+#userDetails {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-right: 5px; 
+}
+
+/* Style the name */
+#firstName {
+    font-family: Arial, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-right: 4px; 
+}
+
+#lastName {
+    font-family: Arial, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+.story {
+    text-align: center; /* Center-align the story */
+}
+
+.story h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.story p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.story button {
+    background: #BA98CA;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.story button:hover {
+    background-color: #543a62;
+}
+
+button{
+    background: #BA98CA;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px 2px;
+}
+
+button:hover{
+    background-color: #543a62;
+}
+
+#commentInputContainer {
+    margin-top: 10px; /* Smaller top margin */
+}
+
+#commentInput {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #BA98CA;
+    border-radius: 8px;
+    background: #E0E0E0;
+    box-sizing: border-box;
+}
+
+
+.comment-container {
+    border: 1px solid #BA98CA;
+    border-radius: 8px;
+    background: #E0E0E0;
+    padding: 4px;
+    margin: 5px 0; 
+    width: 35%
+}
+
+.commenter-name {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.comment-text {
+    margin: 0;
+}
+
+.prevButton, .nextButton {
+    position: fixed;
+    bottom: 10px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prevButton {
+    left: 10px; /* Adjust as needed */
+}
+
+.nextButton {
+    right: 10px; /* Adjust as needed */
+}
+#commentDate{
+    font-size: 10px;
+}
+.ad {
+    width: 400px; 
+    float: right; 
+    margin-top: 20px; 
+}
+
+#adImg {
+    max-width: 100%; 
+    height: auto; 
+}

@@ -1,0 +1,21 @@
+// Nov 5th - 11th
+    Apache setup
+    MongoDB setup
+    Authorization
+    Login / signup pages
+
+// Nov 12th - 18th
+    Upload page
+    Edit page
+    CRUD articles
+    Homepage
+
+// Nov 19th - 25th 
+    Ad service
+    Containerize / docker
+    Test Plan
+
+// Nov 26th - 29th
+    Final refinements 
+    Fix any bugs
+    Testing

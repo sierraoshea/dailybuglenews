@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field label {
+    display: block;
+    color: white;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #64B6C8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #277090;
+}
+
+.sign-up {
+    color: white;
+    margin-top: 10px;
+}
+
+#signUpLink {
+    cursor: pointer;
+    color: white;
+}
+
+#signUpLink:hover {
+    color: #F36060;
+}
+
+.header {
+    color: white;
+}
+
+#loginLink{
+    cursor: pointer;
+    color: white;
+}
+
+#loginLink:hover{
+    color:#F36060;
+}
+
+.login-signup {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo {
+    color: #F36060;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+.logo:hover {
+    color: #9e1b1b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#errorMessage{
+    color: #F36060;
+}
+
+.login-box {
+    background-color: #BA98CA;
+    padding: 30px; /* Increase padding to make the box larger */
+    border-radius: 10px; /* Apply border-radius for rounded corners */
+    position: relative; /* Add position */
+}
+
+#errorMessage {
+    color: #F36060;
+    height: 20px; /* Set a fixed height */
+    overflow: hidden; /* Hide the overflow content */
+    /* Other stylings for the error message */
+}

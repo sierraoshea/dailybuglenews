@@ -1,0 +1,6 @@
+FROM httpd:latest
+WORKDIR /usr/local/apache2/htdocs/
+COPY httpd.conf /usr/local/apache2/conf/httpd.conf
+COPY proxy-html.conf /usr/local/apache2/conf/extra/proxy-html.conf
+COPY . .
+EXPOSE 80
